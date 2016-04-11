@@ -36,8 +36,8 @@ It is a form of data where the sum of children value is the parent node value.
 
 ```
 Here is the visualization of the above Hierarchical Data in Bottom-Up tree Chart
-<center>
-  <p>
+
+  <p align="center">
     <img src="TreeChart/screenshot/tree chart.PNG" width="500"></img>
   <p>
-</center>
+
