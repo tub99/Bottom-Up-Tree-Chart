@@ -156,7 +156,8 @@ function Chart()
 		st=paper.set();
 		console.log((chartData.value).toString().length);
 		//Calculating scale factor
-		scalefactor=(Number(chartData.value)/Math.pow(10,(chartData.value).toString().length)*5);
+		//scalefactor=(Number(chartData.value)/Math.pow(10,(chartData.value).toString().length)*5);
+		scalefactor=75/Number(chartData.value);
 		p_Data=parseData(chartData);
 		//Drawing is done here
 		drawComponents();
