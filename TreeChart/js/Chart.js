@@ -150,7 +150,7 @@ function Chart()
 				//adding animations
 				circle.mouseover(function(){
 
-					var frac=Number(getValue(this.id))/chartData.value*100;
+					var frac=(Number(getValue(this.id))/chartData.value*100).toFixed(2);
 					this.attr({'fill':'#06362B','opacity':0.8});
 					document.getElementById(tool).style.display="block";
 	                document.getElementById(tool).innerHTML="The percentage of "+ this.id +" is "+frac+"% of "+chartData.label;
