@@ -1,6 +1,7 @@
 # Bottom-Up-Tree-Chart
 This is a chart for <b>Data Visualisation</b> of <b>HierarchicalData</b> in the form of a tree structure where the parent/root is always at the bottom and the tree grows upwards.
-The entire chart has been built with <b>JavaScript</b> and <b>RaphaelJs</b> library.
+The entire chart has been built with <b>JavaScript</b> and <b>RaphaelJs</b> library.<br>
+Explore this hierarchical visualization at http://tub99.github.io/TreeChart/index.html
 ###Hierarchcal Data
 It is a form of data where the sum of children value is the parent node value.
 ####Example:
